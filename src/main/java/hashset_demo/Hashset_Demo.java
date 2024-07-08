@@ -15,6 +15,7 @@ public class Hashset_Demo {
         fruitsName.add("Guava");
         
         System.out.println(fruitsName);
+        System.out.println("HashSet size : "+fruitsName.size());
         
         /*
         ArrayList / LinkedList এর মধ্যে duplicate elements থাকতে পারে, HashSet এর মধ্যে duplicate elements থাকতে পারবে না।।
