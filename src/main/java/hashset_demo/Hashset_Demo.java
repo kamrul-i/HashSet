@@ -14,8 +14,8 @@ public class Hashset_Demo {
         fruitsName.add("Lichi");
         fruitsName.add("Guava");
                
-        fruitsName.clear();   //all elements are clear.
-        System.out.println(fruitsName);
+        boolean value = fruitsName.isEmpty();
+        System.out.println(value);
         
         /*
         ArrayList / LinkedList এর মধ্যে duplicate elements থাকতে পারে, HashSet এর মধ্যে duplicate elements থাকতে পারবে না।।
