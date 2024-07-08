@@ -13,9 +13,9 @@ public class Hashset_Demo {
         fruitsName.add("Pinapple");
         fruitsName.add("Lichi");
         fruitsName.add("Guava");
-        
+               
+        fruitsName.remove("Apple");  //single value remove
         System.out.println(fruitsName);
-        System.out.println("HashSet size : "+fruitsName.size());
         
         /*
         ArrayList / LinkedList এর মধ্যে duplicate elements থাকতে পারে, HashSet এর মধ্যে duplicate elements থাকতে পারবে না।।
