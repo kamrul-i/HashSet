@@ -14,7 +14,7 @@ public class Hashset_Demo {
         fruitsName.add("Lichi");
         fruitsName.add("Guava");
                
-        fruitsName.remove("Apple");  //single value remove
+        fruitsName.clear();   //all elements are clear.
         System.out.println(fruitsName);
         
         /*
