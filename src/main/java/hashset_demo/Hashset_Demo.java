@@ -6,13 +6,12 @@ public class Hashset_Demo {
         
         HashSet<String>fruitsName = new HashSet<>();
         
+        /*
         fruitsName.add("Mango");
         fruitsName.add("Banana");
         fruitsName.add("Jackfruit");
-        fruitsName.add("Apple");
-        fruitsName.add("Pinapple");
-        fruitsName.add("Lichi");
-        fruitsName.add("Guava");
+        */
+        //কোন elements নেই, এজন্য "isEmpty"-কে true বলছে।।
                
         boolean value = fruitsName.isEmpty();
         System.out.println(value);
